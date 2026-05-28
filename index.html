@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>UpDown – Agencja Reklamowa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
-
-  <!-- Własny arkusz -->
-  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ══════════════════════════════════════════
-     NAVBAR
-═══════════════════════════════════════════ -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg">
   <div class="container">
     <a href="#" class="navbar-brand">
-      <img src="./logo-UPDOWN-01-v2 (1).png" alt="UpDown – Agencja Reklamowa" />
+      <img src="./logo-UPDOWN-01-v2 (1).png" alt="UpDown – Agencja Reklamowa"/>
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Menu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
         <li class="nav-item"><a class="nav-link" href="#uslugi">Usługi</a></li>
-        <li class="nav-item"><a class="nav-link" href="#medycyna">Branża medyczna</a></li>
         <li class="nav-item"><a class="nav-link" href="#realizacje">Realizacje</a></li>
         <li class="nav-item"><a class="nav-link" href="#o-nas">O nas</a></li>
         <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
@@ -47,69 +38,38 @@
   </div>
 </nav>
 
-<!-- ══════════════════════════════════════════
-     HERO
-═══════════════════════════════════════════ -->
+<!-- HERO -->
 <section class="hero">
   <div class="container">
     <div class="row align-items-center gy-5">
-
-      <!-- Tekst -->
       <div class="col-lg-6 reveal">
         <div class="hero-badges">
-          <div class="hero-eyebrow">
-            <span class="dot"></span>Agencja reklamowa · Wodzisław Śląski
-          </div>
-          <div class="hero-badge-med">
-            <span class="badge-med-icon">🩺</span>Specjaliści w branży medycznej
-          </div>
+          <div class="hero-eyebrow"><span class="dot"></span>Agencja reklamowa · Wodzisław Śląski</div>
+         
         </div>
-        <h1 class="hero-title">Twoja firma<br /><span class="grad">wzrasta</span><br />w naszych rękach</h1>
+        <h1 class="hero-title">Twoja firma<br/> <span class="grad">wzrasta</span><br/>w naszych rękach</h1>
         <p class="hero-sub">Kreujemy wizerunek marek w social mediach, projektujemy logo, strony www i materiały reklamowe, które naprawdę sprzedają.</p>
         <div class="d-flex flex-wrap gap-3">
           <a href="#kontakt" class="btn-primary-ud">Zadzwoń do nas <i class="bi bi-arrow-right"></i></a>
           <a href="#realizacje" class="btn-ghost-ud">Zobacz realizacje</a>
         </div>
         <div class="hero-stats">
-          <div class="hero-stat">
-            <div class="hero-stat-num">10<span class="acc">+</span></div>
-            <div class="hero-stat-label">Lat doświadczenia</div>
-          </div>
+          <div class="hero-stat"><div class="hero-stat-num">10<span class="acc">+</span></div><div class="hero-stat-label">Lat doświadczenia</div></div>
           <div class="hero-divider d-none d-sm-block"></div>
-          <div class="hero-stat">
-            <div class="hero-stat-num">50<span class="acc">+</span></div>
-            <div class="hero-stat-label">Projektów</div>
-          </div>
+          <div class="hero-stat"><div class="hero-stat-num">50<span class="acc">+</span></div><div class="hero-stat-label">Projektów</div></div>
           <div class="hero-divider d-none d-sm-block"></div>
-          <div class="hero-stat">
-            <div class="hero-stat-num">8</div>
-            <div class="hero-stat-label">Platformy social</div>
-          </div>
+          <div class="hero-stat"><div class="hero-stat-num">8</div><div class="hero-stat-label">Platformy social</div></div>
         </div>
       </div>
-
-      <!-- Telefon -->
       <div class="col-lg-5 offset-lg-1 hero-panel reveal">
         <div class="phone-wrap">
-          <div class="phone-badge badge-left">
-            <span class="badge-icon">🏆</span>
-            <div>
-              <div class="badge-num">50+</div>
-              <div class="badge-lbl">Projektów</div>
-            </div>
-          </div>
-          <div class="phone-badge badge-right">
-            <span class="badge-icon">❤️</span>
-            <div>
-              <div class="badge-num">100%</div>
-              <div class="badge-lbl">Zaangażowania</div>
-            </div>
-          </div>
+          <div class="phone-badge badge-left"><span class="badge-icon">🏆</span><div><div class="badge-num">50+</div><div class="badge-lbl">Projektów</div></div></div>
+          <div class="phone-badge badge-right"><span class="badge-icon">❤️</span><div><div class="badge-num">100%</div><div class="badge-lbl">Zaangażowania</div></div></div>
           <div class="phone-shell">
             <div class="phone-screen">
               <div class="phone-island"></div>
               <video class="phone-video" autoplay muted loop playsinline>
-                <source src="./reklamaUPDOWN.mp4" type="video/mp4" />
+                <source src="./reklamaUPDOWN.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -121,400 +81,350 @@
           <span class="phone-social-pill"><i class="bi bi-youtube"></i> YouTube</span>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<hr class="sec-divider" />
+<div class="sec-divider"></div>
 
-<!-- ══════════════════════════════════════════
-     USŁUGI
-═══════════════════════════════════════════ -->
+<!-- SERVICES -->
 <section id="uslugi">
   <div class="container">
     <div class="sec-header reveal">
       <span class="sec-label">Co robimy</span>
-      <h2 class="sec-title">Pełne wsparcie<br />dla Twojej marki</h2>
+      <h2 class="sec-title">Pełne wsparcie<br/>dla Twojej marki</h2>
       <p class="sec-body">Od strategii po realizację – pomagamy firmom rosnąć online i budować rozpoznawalną, spójną markę.</p>
     </div>
     <div class="svc-grid reveal">
-      <div class="svc-card">
-        <div class="svc-icon"><i class="bi bi-phone"></i></div>
-        <h5>Social Media</h5>
-        <p>Facebook, Instagram, YouTube, TikTok – angażujący content, precyzyjne zarządzanie profilami.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-icon"><i class="bi bi-brush"></i></div>
-        <h5>Grafika reklamowa</h5>
-        <p>Logo i materiały reklamowe dopasowane do Twojej marki.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-icon"><i class="bi bi-globe2"></i></div>
-        <h5>Strony internetowe</h5>
-        <p>Nowoczesne, szybkie, responsywne strony www, które konwertują odwiedzających w klientów.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-icon"><i class="bi bi-layers"></i></div>
-        <h5>Identyfikacja wizualna</h5>
-        <p>Spójny system wizualny od logo po szablony komunikacji na każdym nośniku.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-icon"><i class="bi bi-camera-video"></i></div>
-        <h5>Foto &amp; Wideo</h5>
-        <p>Profesjonalne zdjęcia i filmy – montaż, obróbka i publikacja na wszystkich platformach.</p>
-      </div>
-      <div class="svc-card">
-        <div class="svc-icon"><i class="bi bi-crosshair2"></i></div>
-        <h5>Reklama płatna</h5>
-        <p>Kampanie Meta Ads i Google Ads z precyzyjnym targetowaniem.</p>
-      </div>
+      <div class="svc-card"><div class="svc-icon"><i class="bi bi-phone"></i></div><h5>Social Media</h5><p>Facebook, Instagram, YouTube, TikTok – angażujący content, precyzyjne zarządzanie profilami.</p></div>
+      <div class="svc-card"><div class="svc-icon"><i class="bi bi-brush"></i></div><h5>Grafika reklamowa</h5><p>Logo i materiały reklamowe dopasowane do Twojej marki.</p></div>
+      <div class="svc-card"><div class="svc-icon"><i class="bi bi-globe2"></i></div><h5>Strony internetowe</h5><p>Nowoczesne, szybkie, responsywne strony www, które konwertują odwiedzających w klientów.</p></div>
+      <div class="svc-card"><div class="svc-icon"><i class="bi bi-layers"></i></div><h5>Identyfikacja wizualna</h5><p>Spójny system wizualny od logo po szablony komunikacji na każdym nośniku.</p></div>
+      <div class="svc-card"><div class="svc-icon"><i class="bi bi-camera-video"></i></div><h5>Foto &amp; Wideo</h5><p>Profesjonalne zdjęcia i filmy – montaż, obróbka i publikacja na wszystkich platformach.</p></div>
+      <div class="svc-card"><div class="svc-icon"><i class="bi bi-crosshair2"></i></div><h5>Reklama płatna</h5><p>Kampanie Meta Ads i Google Ads z precyzyjnym targetowaniem.</p></div>
     </div>
   </div>
 </section>
 
-<hr class="sec-divider" />
+<div class="sec-divider"></div>
 
-<!-- ══════════════════════════════════════════
-     DLACZEGO MY
-═══════════════════════════════════════════ -->
+<!-- WHY US -->
 <section id="dlaczego">
   <div class="container">
     <div class="sec-header reveal">
       <span class="sec-label">Dlaczego my</span>
-      <h2 class="sec-title">Doświadczenie,<br />które procentuje</h2>
+      <h2 class="sec-title">Doświadczenie,<br/>które procentuje</h2>
       <p class="sec-body">Zdobywaliśmy wiedzę z dużymi firmami. Dziś łączymy to z kreatywnością, by sprostać oczekiwaniom nawet najbardziej wymagających klientów.</p>
     </div>
     <div class="why-grid reveal">
-      <div class="why-card" data-n="01">
-        <div class="why-num">01</div>
-        <h5>Specjalizacja w branży medycznej</h5>
-        <p>Wiemy jak budować wizerunek gabinetu, lekarza czy placówki medycznej – zgodnie z etyką, prawem i skutecznie.</p>
-      </div>
-      <div class="why-card" data-n="02">
-        <div class="why-num">02</div>
-        <h5>Kompleksowa obsługa pod jednym dachem</h5>
-        <p>Strategia, projekt, publikacja, analiza – zajmujemy się wszystkim, Ty skupiasz się na swojej pracy.</p>
-      </div>
-      <div class="why-card" data-n="03">
-        <div class="why-num">03</div>
-        <h5>Oryginalność ponad szablony</h5>
-        <p>Każdy klient dostaje coś wyjątkowego. Nie kopiujemy, tworzymy – dla każdego z osobna.</p>
-      </div>
-      <div class="why-card" data-n="04">
-        <div class="why-num">04</div>
-        <h5>Partnerskie podejście</h5>
-        <p>Jesteśmy małżeństwem i partnerami w biznesie. Twoją firmę traktujemy jak własną – przede wszystkim z pasją.</p>
-      </div>
+      <div class="why-card" data-n="01"><div class="why-num">01</div><h5>Specjalizacja w branży medycznej</h5><p>Wiemy jak budować wizerunek gabinetu, lekarza czy placówki medycznej – zgodnie z etyką, prawem i skutecznie.</p></div>
+      <div class="why-card" data-n="02"><div class="why-num">02</div><h5>Kompleksowa obsługa pod jednym dachem</h5><p>Strategia, projekt, publikacja, analiza – zajmujemy się wszystkim, Ty skupiasz się na swojej pracy.</p></div>
+      <div class="why-card" data-n="03"><div class="why-num">03</div><h5>Oryginalność ponad szablony</h5><p>Każdy klient dostaje coś wyjątkowego. Nie kopiujemy, tworzymy – dla każdego z osobna.</p></div>
+      <div class="why-card" data-n="04"><div class="why-num">04</div><h5>Partnerskie podejście</h5><p>Jesteśmy małżeństwem i partnerami w biznesie. Twoją firmę traktujemy jak własną – przede wszystkim z pasją.</p></div>
     </div>
   </div>
 </section>
 
-<hr class="sec-divider" />
+<div class="sec-divider"></div>
 
-<!-- ══════════════════════════════════════════
-     SEKCJA MEDYCZNA
-═══════════════════════════════════════════ -->
-<section id="medycyna">
-  <div class="container">
-    <div class="med-inner reveal">
-
-      <div class="med-badge">
-        <span class="med-badge-icon">🩺</span>
-        <span>Specjalizacja</span>
-      </div>
-
-      <h2 class="sec-title med-title">Marketing medyczny<br /><span class="grad">to nasza nisza</span></h2>
-
-      <p class="sec-body med-body">
-        Od lat współpracujemy z lekarzami, klinikami i placówkami medycznymi.
-        Wiemy, jak budować wizerunek eksperta, zachowując zgodność z etyką
-        zawodową i przepisami prawa. Twoi pacjenci znajdą Cię w sieci –
-        i zaufają Ci, jeszcze przed pierwszą wizytą.
-      </p>
-
-      <div class="med-pills">
-        <span class="med-pill">🏥 Lekarze specjaliści</span>
-        <span class="med-pill">💊 Kliniki i gabinety</span>
-        <span class="med-pill">🦷 Dentyści</span>
-        <span class="med-pill">💆 Beauty &amp; Wellness</span>
-        <span class="med-pill">🏋️ Fitness &amp; Zdrowie</span>
-      </div>
-
-      <div class="med-stats">
-        <div class="med-stat">
-          <div class="hero-stat-num">5<span class="acc">+</span></div>
-          <div class="hero-stat-label">Lekarzy &amp; ekspertów zdrowia</div>
-        </div>
-        <div class="hero-divider"></div>
-        <div class="med-stat">
-          <div class="hero-stat-num">10<span class="acc">+</span></div>
-          <div class="hero-stat-label">Lat w branży medycznej</div>
-        </div>
-        <div class="hero-divider"></div>
-        <div class="med-stat">
-          <div class="hero-stat-num">100<span class="acc">%</span></div>
-          <div class="hero-stat-label">Zgodność z etyką zawodową</div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<hr class="sec-divider" />
-
-<!-- ══════════════════════════════════════════
-     PORTFOLIO
-═══════════════════════════════════════════ -->
+<!-- PORTFOLIO -->
 <section id="realizacje">
   <div class="container">
     <div class="sec-header reveal">
       <span class="sec-label">Portfolio</span>
-      <h2 class="sec-title">Nasze wybrane<br />realizacje</h2>
+      <h2 class="sec-title">Nasze wybrane<br/>realizacje</h2>
       <p class="sec-body">Nasi ulubieni klienci to firmy i osoby otwarte na nowe pomysły i wyzwania.</p>
     </div>
+   <!-- FONT AWESOME -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Filtry -->
-    <div class="port-tabs reveal">
-      <button class="port-tab active" data-filter="all">Wszystkie</button>
-      <button class="port-tab" data-filter="social">Social Media</button>
-      <button class="port-tab" data-filter="logo">Logo</button>
+<!-- =========================
+SOCIAL MEDIA PORTFOLIO
+========================= -->
+
+<div class="port-grid reveal">
+
+  <!-- DOKTOR VIOLA -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./doktorviola.jpg" alt="Doktor Viola">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/doktorviola/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/doktorviola/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@doktorviola.diabetolog" target="_blank" class="social-btn tt">
+          <i class="fab fa-tiktok"></i>
+        </a>
+
+        <a href="https://www.youtube.com/c/DoktorViola" target="_blank" class="social-btn yt">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
     </div>
 
-    <!-- Siatka -->
-    <div class="port-grid reveal">
+    <div class="port-cap-static">
+      <span>Doktor Viola</span>
+    </div>
+  </div>
 
-    
+  <!-- DOKTOR GAWEŁ -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./doktorgawel.jpg" alt="Doktor Gaweł">
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./doktorviola.jpg" alt="Doktor Viola" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/doktorviola/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/doktorviola/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.tiktok.com/@doktorviola.diabetolog" target="_blank" class="social-btn tt" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-              <a href="https://www.youtube.com/c/DoktorViola" target="_blank" class="social-btn yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Doktor Viola</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/doktorviola/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/doktorviola/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@doktorviola.diabetolog" target="_blank" class="social-btn tt" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <a href="https://www.youtube.com/c/DoktorViola" target="_blank" class="social-btn yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          </div>
-        </div>
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/doktorGawel/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./doktorgawel.jpg" alt="Doktor Gaweł" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/doktorGawel/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/doktorgawel/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.tiktok.com/@doktor.gawel" target="_blank" class="social-btn tt" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-              <a href="https://www.youtube.com/c/doktorgawelozdrowiukobietbeztabu" target="_blank" class="social-btn yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Doktor Gaweł</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/doktorGawel/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/doktorgawel/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/@doktor.gawel" target="_blank" class="social-btn tt" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <a href="https://www.youtube.com/c/doktorgawelozdrowiukobietbeztabu" target="_blank" class="social-btn yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          </div>
-        </div>
+        <a href="https://www.instagram.com/doktorgawel/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./healthcore.jpg" alt="HealthCore" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/healthcore/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/healthcore1/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>HealthCore</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/healthcore/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/healthcore1/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+        <a href="https://www.tiktok.com/@doktor.gawel" target="_blank" class="social-btn tt">
+          <i class="fab fa-tiktok"></i>
+        </a>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./theramed.jpg" alt="Theramed" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/theramedwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/theramed.wodzislaw/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Theramed</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/theramedwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/theramed.wodzislaw/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+        <a href="https://www.youtube.com/c/doktorgawelozdrowiukobietbeztabu" target="_blank" class="social-btn yt">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./movens.jpg" alt="Movens" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/MovensAcademy/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/movens_academy/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Movens</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/MovensAcademy/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/movens_academy/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+    <div class="port-cap-static">
+      <span>Doktor Gaweł</span>
+    </div>
+  </div>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./browarwodzislaw.jpg" alt="Browar Wodzisław" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/p/Browar-Wodzis%C5%82aw-100093723469739/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/browar_wodzislaw/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Browar Wodzisław</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/p/Browar-Wodzis%C5%82aw-100093723469739/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/browar_wodzislaw/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+  <!-- HEALTHCORE -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./healthcore.jpg" alt="HealthCore">
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./ciabattasquad.jpg" alt="Ciabatta Squad" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/ciabattasquad/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/ciabatta_squad/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Ciabatta Squad</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/ciabattasquad/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/ciabatta_squad/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/healthcore/" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./MJ Beauty.jpg" alt="MJ Beauty" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/mjbeauty.indiba/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/mjbeauty_indiba/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>MJ Beauty</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/mjbeauty.indiba/" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/mjbeauty_indiba/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+        <a href="https://www.instagram.com/healthcore1/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
 
-        <div class="port-item fanpage-style fanpage-style--contain" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./ecoconstans.jpg" alt="Ecoconstans" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/twojezrodloenergii/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/eco_constans/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Ecoconstans</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/twojezrodloenergii/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/eco_constans/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+    <div class="port-cap-static">
+      <span>HealthCore</span>
+    </div>
+  </div>
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./parafiawnmp.jpg" alt="Parafia WNMP" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/wnmpwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Parafia WNMP</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/wnmpwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          </div>
-        </div>
+  <!-- THERAMED -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./theramed.jpg" alt="Theramed">
 
-        <div class="port-item fanpage-style" data-cat="social">
-          <div class="fanpage-img-wrap">
-            <img src="./jayhymm.jpg" alt="Ja Yhymm" loading="lazy" />
-            <div class="social-overlay">
-              <a href="https://www.facebook.com/wnmpwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/jayhymm_najlepszeobozy/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-          <div class="port-cap-static"><span>Ja Yhymm - najlepsze obozy</span></div>
-          <div class="social-links-bar">
-            <a href="https://www.facebook.com/wnmpwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/jayhymm_najlepszeobozy/" target="_blank" class="social-btn ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/theramedwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
 
-      </div><!-- /port-grid -->
+        <a href="https://www.instagram.com/theramed.wodzislaw/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+        </a>
+      </div>
+    </div>
 
-      <!-- ══ Logo ══ -->
-      <div class="logo-grid reveal">
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_01.png" alt="Projekt logo" loading="lazy" /></div>
+    <div class="port-cap-static">
+      <span>Theramed</span>
+    </div>
+  </div>
+
+  <!-- MOVENS -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./movens.jpg" alt="Movens">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/MovensAcademy/" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/movens_academy/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="port-cap-static">
+      <span>Movens</span>
+    </div>
+  </div>
+
+  <!-- BROWAR -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./browarwodzislaw.jpg" alt="Browar">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/p/Browar-Wodzis%C5%82aw-100093723469739/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/browar_wodzislaw/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="port-cap-static">
+      <span>Browar</span>
+    </div>
+  </div>
+
+  <!-- CIABATTA -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./ciabattasquad.jpg" alt="Ciabatta">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/ciabattasquad/" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/ciabatta_squad/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+
         </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_1b.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_02.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_02b.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_03.jpg" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_03b.jpg" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_04.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_04b.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_05.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-        <div class="port-item" data-cat="logo">
-          <div class="port-img-wrap"><img src="./logo_05b.png" alt="Projekt logo" loading="lazy" /></div>
-        </div>
-      </div><!-- /logo-grid -->
+    </div>
+
+    <div class="port-cap-static">
+      <span>Ciabatta Squad</span>
+    </div>
+  </div>
+
+     <!-- MJ BEAUTY -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./MJ Beauty.jpg" alt="mj beauty">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/mjbeauty.indiba/" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/mjbeauty_indiba/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="port-cap-static">
+      <span>MJ Beauty</span>
+    </div>
+  </div>
+
+  <!-- ECOCONSTANS -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./ecoconstans.jpg" alt="Ecoconstans">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/twojezrodloenergii/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/eco_constans/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="port-cap-static">
+      <span>Ecoconstans</span>
+    </div>
+  </div>
+   <!-- PARAFIA -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./parafiawnmp.jpg" alt="Parafia WNMP">
+
+      <div class="social-overlay">
+        <a href="https://www.facebook.com/wnmpwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="port-cap-static">
+      <span>Parafia WNMP</span>
+    </div>
+  </div>
+  <!-- JAYHYMM -->
+  <div class="port-item fanpage-style" data-cat="social">
+    <div class="fanpage-img-wrap">
+      <img src="./jayhymm.jpg" alt="ja yhymm">
+
+      <div class="social-overlay">
+         <a href="https://www.facebook.com/wnmpwodzislaw/?locale=pl_PL" target="_blank" class="social-btn fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/jayhymm_najlepszeobozy/" target="_blank" class="social-btn ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="port-cap-static">
+      <span>ja yhymm</span>
+    </div>
+  </div>
+
+
+ 
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_01.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_1b.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 02 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_02.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 0 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_02b.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_03.jpg" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_03b.jpg" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_04.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_04b.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_05.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>  
+      <div class="port-item" data-cat="logo"><div class="port-img-wrap"><img src="./logo_05b.png" alt="Logo 01" loading="lazy"/></div><div class="port-cap"><span>Logo 01 – Projekt logo</span></div></div>
+  </div>
   </div>
 </section>
 
-<hr class="sec-divider" />
+<div class="sec-divider"></div>
 
-<!-- ══════════════════════════════════════════
-     ZESPÓŁ
-═══════════════════════════════════════════ -->
+<!-- TEAM -->
 <section id="o-nas">
   <div class="container">
     <div class="sec-header text-center reveal">
       <span class="sec-label">Zespół</span>
       <h2 class="sec-title">Poznaj nas</h2>
-      <p class="sec-body mx-auto">Pasja, doświadczenie i zaangażowanie – to my. Małżeństwo, które zamienia Twoje cele w realne rezultaty.</p>
+      <p class="sec-body" style="margin:0 auto;">Pasja, doświadczenie i zaangażowanie – to my. Małżeństwo, które zamienia Twoje cele w realne rezultaty.</p>
     </div>
     <div class="row g-4 mb-4">
       <div class="col-md-6 reveal">
         <div class="team-card">
-          <img src="./magda.jpg" alt="Magdalena" class="team-avatar" />
+          <img src="./magda.jpg" alt="Magdalena" class="team-avatar"/>
           <h4>Magdalena</h4>
           <div class="team-role">Strategia &amp; Social Media</div>
-          <p>Buduję strategie social media, które realnie wspierają sprzedaż i rozwój marki. Tworzę angażujące treści oraz reklamy dopasowane do Twojej grupy docelowej, dzięki którym Twoja firma wyróżnia się w sieci.</p>
+          <p>Przygotuję strategię działania Twojej firmy w social mediach. Wiem, jak pisać posty, aby były interesujące. Stworzę kreację reklamową trafiającą precyzyjnie do Twojego klienta.</p>
           <div class="team-links">
             <a href="tel:+48603494819"><i class="bi bi-telephone-fill"></i> +48 603 494 819</a>
             <a href="mailto:magdalena@updown.com.pl"><i class="bi bi-envelope-fill"></i> magdalena@updown.com.pl</a>
@@ -523,10 +433,10 @@
       </div>
       <div class="col-md-6 reveal">
         <div class="team-card">
-          <img src="./adam.jpg" alt="Adam" class="team-avatar" />
+          <img src="./adam.jpg" alt="Adam" class="team-avatar"/>
           <h4>Adam</h4>
           <div class="team-role">Grafika &amp; Produkcja</div>
-          <p>Tworzę skuteczne materiały reklamowe — od identyfikacji wizualnej i grafik sprzedażowych, po zdjęcia oraz produkcję i montaż video. Pomagam markom wyróżnić się i przyciągać klientów poprzez nowoczesny design oraz przemyślaną komunikację wizualną.</p>
+          <p>Zaprojektuję logo, wizytówki, ulotki, plakat, wykonam stronę www, zdjęcia, nagram i zmontruję film. Wiem, jak tworzyć grafiki, które sprzedają.</p>
           <div class="team-links">
             <a href="tel:+48669273868"><i class="bi bi-telephone-fill"></i> +48 669 273 868</a>
             <a href="mailto:adam@updown.com.pl"><i class="bi bi-envelope-fill"></i> adam@updown.com.pl</a>
@@ -543,16 +453,14 @@
   </div>
 </section>
 
-<hr class="sec-divider" />
+<div class="sec-divider"></div>
 
-<!-- ══════════════════════════════════════════
-     KONTAKT
-═══════════════════════════════════════════ -->
+<!-- CONTACT -->
 <section id="kontakt">
   <div class="container">
     <div class="contact-hero reveal">
       <h2>Gotowy na współpracę?</h2>
-      <p>Zadzwoń, napisz lub odwiedź nas w Wodzisławiu Śląskim.<br />Chętnie porozmawiamy o Twoim projekcie!</p>
+      <p>Zadzwoń, napisz lub odwiedź nas w Wodzisławiu Śląskim.<br/>Chętnie porozmawiamy o Twoim projekcie!</p>
       <div class="contact-cards">
         <a href="tel:+48669273868" class="contact-card">
           <span class="contact-card-icon">📞</span>
@@ -567,56 +475,44 @@
       </div>
     </div>
     <div class="contact-strip reveal">
-      <a href="https://www.google.com/maps/search/?api=1&query=ul.+Szkolna+16,+44-300+Wodzis%C5%82aw+%C5%9Al%C4%85ski" target="_blank" rel="noopener" class="contact-strip-item contact-strip-item--link">
-        <i class="bi bi-geo-alt-fill"></i> ul. Szkolna 16, 44-300 Wodzisław Śląski
-      </a>
-      <div class="contact-strip-item"><i class="bi bi-building"></i> UPDOWN Sp. z o.o.</div>
+      <div class="contact-strip-item"><i class="bi bi-geo-alt-fill"></i>ul. Szkolna 16, 44-300 Wodzisław Śląski</div>
+      <div class="contact-strip-item"><i class="bi bi-building"></i>UPDOWN Sp. z o.o.</div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════
-     FOOTER
-═══════════════════════════════════════════ -->
+<!-- FOOTER -->
 <footer>
   <div class="container">
     <div class="footer-inner">
-      <a href="#" class="footer-brand">
-        <img src="./logo-UPDOWN-01-v2 (1).png" alt="UpDown" />
-      </a>
+      <a href="#" class="footer-brand"><img src="./logo-UPDOWN-01-v2 (1).png" alt="UpDown"/></a>
       <div class="footer-copy">© 2025 <strong>UPDOWN Sp. z o.o.</strong> · ul. Szkolna 16, 44-300 Wodzisław Śląski</div>
       <div class="footer-copy">Wszelkie prawa zastrzeżone.</div>
     </div>
   </div>
 </footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-  /* ── Navbar scroll shadow ── */
   window.addEventListener('scroll', () => {
     document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 10);
   });
-
-  /* ── Reveal on scroll ── */
-  const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 70);
-        revealObserver.unobserve(entry.target);
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 70);
+        io.unobserve(e.target);
       }
     });
   }, { threshold: 0.08 });
-  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-  /* ── Portfolio filter ── */
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
   document.querySelectorAll('.port-tab').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.port-tab').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const filter = btn.dataset.filter;
+      const f = btn.dataset.filter;
       document.querySelectorAll('.port-item').forEach(item => {
-        item.style.display = (filter === 'all' || item.dataset.cat === filter) ? '' : 'none';
+        item.style.display = (f === 'all' || item.dataset.cat === f) ? '' : 'none';
       });
     });
   });
